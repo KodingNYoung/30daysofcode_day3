@@ -1,0 +1,72 @@
+body{
+    color: white;
+    font-family: cursive;
+    background-color: black;
+    background-image: linear-gradient(rgba(46, 43, 180, 0.1),rgba(255,255,255,0.1)), url(nahel-abdul-hadi-flha0KwRrRc-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box-container{
+    max-width:400px;
+    margin:10% 5% 0 auto;
+}
+.header{
+    color: whitesmoke;
+    text-align: center;
+}
+.header .heading{
+    font-size: 20px;
+    margin-bottom:0px;
+    padding-bottom: 0;
+}
+.login-form-container .form-holder{
+    border-radius: 10px;
+    border:1px solid white;
+}
+.login-form-container .form-holder form{
+    padding: 5%;
+    width: 85%;
+    margin: auto;
+}
+.login-form-container .form-holder form .input-space{
+    width: 100%;
+    padding: 14px 0;
+    margin: 0px 5px 10px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    color: rgb(199, 200, 252);
+    border-bottom:1px solid white ;
+}
+::placeholder{
+    color:gray;
+}
+
+.login-form-container .form-holder form .button{
+    margin: 20px auto 0;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#4caf50;
+    color: white; 
+    border-radius: 5px;
+}
+
+.after-form {
+    margin-top: 12px;
+    font-size: 13px;  
+}
+.after-form .register{
+    float: right;
+}
+.after-form span a{
+    text-decoration: none;
+    color:#4caf50;
+}
+.after-form span a:hover{
+    color: white;
+}
